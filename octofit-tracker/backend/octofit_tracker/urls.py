@@ -2,6 +2,10 @@
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
+
+API Endpoints are available at:
+- Local: http://localhost:8000/api/
+- Codespace: https://$CODESPACE_NAME-8000.app.github.dev/api/
 """
 from django.contrib import admin
 from django.urls import path, include
